@@ -37,10 +37,10 @@ module.exports = {
             // forking: {
             //   url: MAINNET_RPC_URL
             // }
-            chainId: 31337,
+            chainId: 1337,
         },
         localhost: {
-            chainId: 31337,
+            chainId: 1337,
         },
         kovan: {
             url: KOVAN_RPC_URL,

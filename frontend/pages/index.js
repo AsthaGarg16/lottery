@@ -4,11 +4,11 @@ import Header from "../components/Header";
 import LotteryEntrance from "../components/LotteryEntrance";
 import { useMoralis } from "react-moralis";
 
-const supportedChains = ["31337", "4"];
+const supportedChains = ["1337", "4", "5"];
 
 export default function Home() {
   const { isWeb3Enabled, chainId } = useMoralis();
-
+  console.log(parseInt(chainId));
   return (
     <div className={styles.container}>
       <Head>
